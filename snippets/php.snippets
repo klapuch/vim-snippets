@@ -1,9 +1,12 @@
 snippet dst "declare(strict_types=1)"
 	declare(strict_types = ${1:1});
-# this one is for php5.4
 snippet ns
 	namespace ${1:Foo\Bar\Baz};
 	${0}
+snippet ctor
+	public function __construct(${1}) {
+		${0}
+	}
 snippet c
 	/**
 	 * ${1}
